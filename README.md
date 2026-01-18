@@ -19,7 +19,7 @@ ClipVault is a smart clipboard manager extension that automatically saves copied
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/clipvault.git
+    git clone https://github.com/rittu07/clipvault.git
     ```
 2.  Open Chrome and navigate to `chrome://extensions/`.
 3.  Enable **Developer mode**.
@@ -29,3 +29,4 @@ ClipVault is a smart clipboard manager extension that automatically saves copied
 
 -   Simply copy text from any webpage (`Ctrl+C`).
 -   Click the ClipVault icon in the toolbar to search or view your saved clips and their sources.
+
