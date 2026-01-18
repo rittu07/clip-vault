@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clipboard History</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Smart Clipboard 📋</h1>
+        <div style="display: flex; gap: 5px;">
+            <button id="export-btn" title="Export to Word">📄 Word</button>
+            <button id="clear-btn">Clear All</button>
+        </div>
+    </header>
+    <main id="list-container">
+        <!-- Items will be injected here -->
+        <div class="empty-state">
+            <p>No history yet.</p>
+            <p>Copy text from any website to see it here.</p>
+        </div>
+    </main>
+    <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "ClipVault - Smart Link Saver",
+    "version": "1.0",
+    "description": "Automatically saves copied text along with the source website link.",
+    "permissions": [
+        "storage",
+        "clipboardRead"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        },
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "clipboard_interceptor.js"
+            ],
+            "world": "MAIN"
+        }
+    ]
+}
